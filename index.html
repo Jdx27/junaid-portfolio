@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070a12">
+  <meta name="description" content="Muhammad Junaid Hassan Jadoon — BSCS undergraduate exploring web development, AI/ML, and creative digital production.">
+  <title>Muhammad Junaid Hassan Jadoon | Interactive 3D Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <canvas id="scene" aria-label="Interactive 3D animated background"></canvas>
+  <div class="grain"></div>
+  <header class="topbar">
+    <a class="logo" href="#home" aria-label="Junaid home"><span class="logo-mark">J</span><span>JUNAID<span class="cyan">.DEV</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav id="nav">
+      <a href="#about">About</a><a href="#services">Services</a><a href="#work">Projects</a><a href="#skills">Skills</a>
+      <a class="nav-contact" href="#contact">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <div class="availability"><span class="live-dot"></span> OPEN TO FREELANCE PROJECTS</div>
+        <p class="eyebrow">WEB DEVELOPMENT · AI/ML · CREATIVE DIGITAL</p>
+        <h1>Ideas into<br><span class="gradient">digital reality.</span></h1>
+        <p class="intro">I'm <strong>Muhammad Junaid Hassan Jadoon</strong>, a Computer Science undergraduate who enjoys building responsive websites, exploring AI/ML, and creating polished digital content.</p>
+        <div class="hero-buttons"><a class="btn btn-primary" href="#work">Explore my work <span>↘</span></a><a class="btn btn-ghost" href="#contact">Hire / Contact me</a></div>
+        <div class="hero-foot"><span><i class="status-dot"></i> Islamabad, Pakistan</span><span>Learning, building, improving.</span></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="visual-label label-top"><span class="tiny-dot"></span> INTERACTIVE 3D / 01</div>
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="visual-glow"></div>
+        <div class="hud hud-code"><span class="hud-dot"></span><code>&lt;build /&gt;</code><small>creative development</small></div>
+        <div class="hud hud-ai"><span class="hud-icon">✳</span><div><b>AI / ML</b><small>learning & prototyping</small></div></div>
+        <div class="hud hud-web"><span>⌘</span><div><b>Web experiences</b><small>responsive · user-focused</small></div></div>
+        <div class="drag-hint"><span>↔</span> MOVE YOUR MOUSE</div>
+      </div>
+      <a class="scroll-hint" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-index reveal"><span>01</span> / ABOUT</div>
+      <div class="about-grid">
+        <h2 class="reveal">A technical mindset.<br><span class="dim">A creative eye.</span></h2>
+        <div class="about-copy reveal"><p>My background brings together programming fundamentals, front-end development, introductory machine-learning practice, and digital content creation. I like turning a clear idea into something practical, useful, and easy to use.</p><p>I'm currently growing my portfolio and looking to collaborate on focused projects where thoughtful design and reliable implementation matter.</p>
+          <div class="values"><div><b>01</b><span>Purposeful builds</span></div><div><b>02</b><span>Continuous learning</span></div><div><b>03</b><span>Clear communication</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="section-index reveal"><span>02</span> / HOW I CAN HELP</div>
+      <div class="section-title-row reveal"><h2>Services with <span class="gradient">purpose.</span></h2><p>Start with a clear scope and build from there.</p></div>
+      <div class="service-grid">
+        <article class="service-card reveal"><div class="service-number">01</div><div class="service-icon">〈/〉</div><h3>Responsive Websites</h3><p>Clean landing pages and responsive front-end interfaces using HTML, CSS, and JavaScript.</p><div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+        <article class="service-card reveal"><div class="service-number">02</div><div class="service-icon">◈</div><h3>WordPress Websites</h3><p>Website setup, theme customization, and content layout improvements for small projects.</p><div class="chips"><span>WordPress</span><span>Elementor*</span></div></article>
+        <article class="service-card reveal"><div class="service-number">03</div><div class="service-icon">✳</div><h3>AI / ML Prototypes</h3><p>Learning-focused Python data and machine-learning prototypes, with clear notes about scope and limitations.</p><div class="chips"><span>Python</span><span>ML</span><span>Data</span></div></article>
+        <article class="service-card reveal"><div class="service-number">04</div><div class="service-icon">▶</div><h3>Video & Visual Content</h3><p>Video edits and visual content for social media, using tools listed in my CV.</p><div class="chips"><span>DaVinci Resolve</span><span>Premiere Pro</span><span>Canva</span></div></article>
+      </div>
+      <p class="fineprint">*List Elementor only if it reflects your current hands-on experience. Offer only services you can confidently deliver.</p>
+    </section>
+
+    <section class="section work" id="work">
+      <div class="section-index reveal"><span>03</span> / SELECTED WORK</div>
+      <div class="section-title-row reveal"><h2>Work in <span class="gradient">progress.</span></h2><p>Replace concept entries with completed projects, screenshots, and live links as you build them.</p></div>
+      <div class="work-grid">
+        <article class="work-card work-feature reveal">
+          <div class="project-art art-ai"><div class="radar-ring ring-one"></div><div class="radar-ring ring-two"></div><div class="ai-core">AI</div><div class="art-caption">PYTHON / MACHINE LEARNING</div><span class="project-count">PROJECT 01</span></div>
+          <div class="work-info"><div><div class="project-kicker">LEARNING PROJECT CONCEPT</div><h3>AI Disease Prediction</h3><p>A possible Python project exploring data preparation, model training, evaluation, and a simple web interface. Add your real model results and repository before presenting it as completed work.</p><div class="chips"><span>Python</span><span>scikit-learn*</span><span>Flask*</span></div></div><a class="round-arrow" href="#contact" aria-label="Ask about this project">↗</a></div>
+        </article>
+        <article class="work-card reveal">
+          <div class="project-art art-web"><div class="browser-mock"><div class="browser-top"><i></i><i></i><i></i></div><div class="browser-layout"><div><span></span><span></span><span></span></div><div class="browser-image"></div></div></div><div class="art-caption">HTML / CSS / JAVASCRIPT</div><span class="project-count">PROJECT 02</span></div>
+          <div class="work-info"><div><div class="project-kicker">PORTFOLIO / FRONT END</div><h3>Responsive Website UI</h3><p>A mobile-friendly web interface focused on layout, typography, and clear calls to action.</p></div><a class="round-arrow" href="#contact" aria-label="Ask about this project">↗</a></div>
+        </article>
+        <article class="work-card reveal">
+          <div class="project-art art-creative"><div class="play-disc">▶</div><div class="sound-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="art-caption">VIDEO / GRAPHIC DESIGN</div><span class="project-count">PROJECT 03</span></div>
+          <div class="work-info"><div><div class="project-kicker">CREATIVE CONTENT</div><h3>Social Video & Design</h3><p>A showcase for selected video edits, thumbnails, posters, and social-media graphics.</p></div><a class="round-arrow" href="#contact" aria-label="Ask about this project">↗</a></div>
+        </article>
+      </div>
+      <p class="fineprint">Portfolio honesty: these are starter showcase concepts, not verified client projects. Add real screenshots, source code, demos, and results.</p>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-index reveal"><span>04</span> / TOOLKIT</div>
+      <div class="section-title-row reveal"><h2>Tools I <span class="gradient">work with.</span></h2><p>Based on the skills and tools listed in my CV.</p></div>
+      <div class="skill-cloud reveal"><span>Java</span><span>C++</span><span>C#</span><span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>WordPress</span><span>Machine Learning</span><span>Deep Learning</span><span>DaVinci Resolve</span><span>Adobe Premiere Pro</span><span>CapCut</span><span>Photoshop</span><span>Illustrator</span><span>Canva</span><span>SEO</span><span>Digital Marketing</span><span>Blogging</span><span>Content Writing</span></div>
+      <div class="education-block reveal"><div class="section-index"><span>EDU</span> / EDUCATION & TRAINING</div><div class="education-row"><span class="edu-date">2023 — PRESENT</span><div><h3>Bachelor of Computer Science</h3><p>FAST NUCES, Islamabad Campus</p></div><span class="edu-tag">BSCS</span></div><div class="education-row"><span class="edu-date">2026</span><div><h3>AI — Machine Learning & Deep Learning</h3><p>NAVTTC · Prime Minister’s Youth Programme, as listed in my CV</p></div><span class="edu-tag">AI / ML</span></div><div class="education-row"><span class="edu-date">COURSEWORK</span><div><h3>Digital Marketing, Video Editing, WordPress & Graphic Design</h3><p>Additional training listed in my CV</p></div><span class="edu-tag">COURSES</span></div></div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-card reveal"><div class="section-index"><span>05</span> / CONTACT</div><p class="eyebrow">HAVE A PROJECT IN MIND?</p><h2>Let's make something<br><span class="gradient">worth sharing.</span></h2><p class="contact-intro">Tell me what you're building, what you need, and your timeline. We can discuss whether it's a good fit.</p><div class="contact-actions"><a class="btn btn-primary" href="mailto:mjunaidhassanjadoonpk786@gmail.com?subject=Portfolio%20Project%20Inquiry">Email me <span>↗</span></a><button class="btn btn-ghost" id="copyEmail">Copy email</button></div><div id="copyStatus" class="copy-status" aria-live="polite"></div><div class="contact-details"><span>Islamabad, Pakistan</span><span>mjunaidhassanjadoonpk786@gmail.com</span></div></div>
+      <div class="contact-3d" aria-hidden="true"><div class="contact-ring"></div><div class="contact-sphere"></div></div>
+    </section>
+  </main>
+  <footer><a class="logo" href="#home"><span class="logo-mark">J</span><span>JUNAID<span class="cyan">.DEV</span></span></a><span>Curiosity into capability.</span><span>© <span id="year"></span> Muhammad Junaid Hassan Jadoon</span></footer>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
